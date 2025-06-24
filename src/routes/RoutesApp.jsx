@@ -7,7 +7,7 @@ import Signup from "../auth/Signup";
 const RoutesApp = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/MoodTracker">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/login" element={<Login />}></Route>
